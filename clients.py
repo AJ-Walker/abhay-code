@@ -17,4 +17,4 @@ serv.connect((host, port))
 
 msg = serv.recv(1024)
 serv.close()
-print msg.decode('ascii')
+print (msg.decode('ascii'))
